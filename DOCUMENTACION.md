@@ -61,3 +61,5 @@ Para la tienda el beneficio se nota en las cuentas. Menos carritos abandonados, 
 ### 5.2 Recomendaciones y pasos a seguir
 
 ## 6. Referencias bibliográficas
+
+Palabra del día: 29
