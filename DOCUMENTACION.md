@@ -74,6 +74,22 @@ Para ver cómo resuelven otras tiendas lo mismo que quiero resolver yo, he revis
 
 ### 3.1 Mapa de navegación
 
+El recorrido principal de compra va de Inicio a Confirmación pasando por el catálogo, el detalle del producto, el carrito y el checkout, y se marca con flechas continuas. La guía de tallas no es una pantalla aparte: se abre encima del detalle como un bottom sheet, y por eso la flecha es punteada. Las líneas punteadas sin punta son los accesos de la navigation bar, que lleva a Inicio, Carrito y Favoritos desde cualquier pantalla.
+
+```mermaid
+flowchart TD
+    A[Inicio] --> B[Catálogo]
+    B --> C[Detalle de producto]
+    C -.-> S[Guía de tallas - bottom sheet]
+    C --> D[Carrito]
+    D --> E[Checkout]
+    E --> F[Confirmación]
+    F --> A
+    A -.- D
+    A -.- G[Favoritos o Perfil]
+    D -.- G
+```
+
 ### 3.2 Wireframes
 
 ### 3.3 Guía de estilo Material Design 3
