@@ -92,6 +92,18 @@ flowchart TD
 
 ### 3.2 Wireframes
 
+Antes de pasar a color dibujé las siete pantallas en gris, para decidir qué va en cada una y dónde. Todas son frames de Android Compact de 360×800. Lo que quería comprobar era que lo importante queda al alcance del pulgar, y que la navigation bar aparece donde hace falta (Inicio, Catálogo, Detalle, Carrito y Favoritos) y no donde estorba, que es en Checkout y en Confirmación.
+
+Inicio reparte la compra por edades y deja el buscador arriba. En Catálogo los chips de filtro van encima de la cuadrícula. El Detalle junta el selector de talla y el botón de la guía de tallas justo antes de «Añadir al carrito», para que la duda se resuelva en ese punto. El Carrito deja siempre visible el importe total. Checkout lleva un campo en error con su mensaje de ayuda, y Confirmación cierra el pedido con su número y un botón para volver al inicio.
+
+![Inicio](capturas/wireframes/01-inicio.png)
+![Catálogo](capturas/wireframes/02-catalogo.png)
+![Detalle de producto](capturas/wireframes/03-detalle.png)
+![Carrito](capturas/wireframes/04-carrito.png)
+![Checkout](capturas/wireframes/05-checkout.png)
+![Confirmación](capturas/wireframes/06-confirmacion.png)
+![Favoritos](capturas/wireframes/07-favoritos.png)
+
 ### 3.3 Guía de estilo Material Design 3
 
 ### 3.4 Prototipo de alta fidelidad
