@@ -106,6 +106,23 @@ Inicio reparte la compra por edades y deja el buscador arriba. En Catálogo los 
 
 ### 3.3 Guía de estilo Material Design 3
 
+Partí de un color semilla, el verde menta #4CAF93, y generé el esquema con el plugin Material Theme Builder. Elegí un verde porque no se asocia a niño ni a niña y resulta tranquilo, que es lo que busca quien compra con prisa. El esquema sale en modo claro y en modo oscuro, y los valores están en diseno/estilos.json. En Figma los tengo como estilos con el nombre material-theme.
+
+**Color y contraste.** Comprobé cada pareja de color y color de texto con la fórmula de contraste de WCAG. El mínimo exigido es 4,5:1 y todas lo superan con margen.
+
+| Pareja | Claro | Oscuro |
+|---|---|---|
+| primary / onPrimary | 6,44 | 7,73 |
+| primaryContainer / onPrimaryContainer | 7,21 | 7,21 |
+| secondary / onSecondary | 6,50 | 7,68 |
+| tertiary / onTertiary | 6,43 | 7,71 |
+| surface / onSurface | 16,31 | 14,33 |
+| error / onError | 6,46 | 7,72 |
+
+**Tipografía.** Uso Roboto, que es la fuente de Material en Android. Los roles que utilizo son headlineSmall (24/32), titleLarge (22/28), titleMedium (16/24, peso 500), bodyLarge (16/24) y labelLarge (14/20, peso 500). Con cinco roles se cubre todo el prototipo y no hace falta mezclar más tamaños.
+
+**Rejilla y accesibilidad.** Las pantallas son de 360×800 dp con cuatro columnas y márgenes de 16 dp a los lados. Todas las medidas son múltiplos de 8 dp y cualquier elemento que se pulsa mide como mínimo 48×48 dp, para poder tocarlo con el pulgar sin fallar.
+
 ### 3.4 Prototipo de alta fidelidad
 
 ## 4. Validación y pruebas

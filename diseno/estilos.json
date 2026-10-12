@@ -1,0 +1,51 @@
+{
+  "propietario": "JorgeMorenoRivero",
+  "tienda": "Chiribita",
+  "colorSemilla": "#4CAF93",
+  "esquema": {
+    "claro": {
+      "primary": "#126B56",
+      "onPrimary": "#FFFFFF",
+      "primaryContainer": "#A3F2D7",
+      "onPrimaryContainer": "#005140",
+      "secondary": "#4B635A",
+      "onSecondary": "#FFFFFF",
+      "tertiary": "#406376",
+      "onTertiary": "#FFFFFF",
+      "surface": "#F5FBF6",
+      "onSurface": "#171D1A",
+      "error": "#BA1A1A",
+      "onError": "#FFFFFF"
+    },
+    "oscuro": {
+      "primary": "#87D6BC",
+      "onPrimary": "#00382B",
+      "primaryContainer": "#005140",
+      "onPrimaryContainer": "#A3F2D7",
+      "secondary": "#B2CCC1",
+      "onSecondary": "#1E352D",
+      "tertiary": "#A8CBE2",
+      "onTertiary": "#0D3446",
+      "surface": "#0F1512",
+      "onSurface": "#DEE4E0",
+      "error": "#FFB4AB",
+      "onError": "#690005"
+    }
+  },
+  "tipografia": {
+    "familia": "Roboto",
+    "roles": {
+      "headlineSmall": { "tamano": 24, "interlineado": 32, "peso": 400 },
+      "titleLarge": { "tamano": 22, "interlineado": 28, "peso": 400 },
+      "titleMedium": { "tamano": 16, "interlineado": 24, "peso": 500 },
+      "bodyLarge": { "tamano": 16, "interlineado": 24, "peso": 400 },
+      "labelLarge": { "tamano": 14, "interlineado": 20, "peso": 500 }
+    }
+  },
+  "espaciado": { "base": 8, "margenPantalla": 16, "columnas": 4, "areaTactilMinima": 48 },
+  "componentes": ["Top app bar", "Navigation bar", "Card", "Filter chip", "Button", "Text field", "Snackbar", "Bottom sheet"],
+  "componentesPropios": [
+    { "nombre": "TarjetaProducto", "variantes": ["normal", "favorito", "agotado"] },
+    { "nombre": "SelectorTalla", "variantes": ["disponible", "seleccionada", "sin stock"] }
+  ]
+}
